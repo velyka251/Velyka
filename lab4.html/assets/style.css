@@ -74,7 +74,7 @@ footer{
 .graph-container img{
     width:100%;
 }
-#applicationForm{
+#feedbackForm{
     display: inline-block;
     margin:0 auto;
     width:250px;
@@ -82,13 +82,13 @@ footer{
 .form-container{
     text-align: center;
 }
-#applicationForm input, #applicationForm button, #applicationForm select{
+#feedbackForm input, #feedbackForm button, #feedbackForm select{
     width:100%;
     font-size:18px;
     font-family: Lora, sans-serif;
     border-radius: 5px;
     padding:5px 10px;
 }
-#applicationForm button, #applicationForm select{
+#feedbackForm button, #feedbackForm select{
     width:274px;
 }
