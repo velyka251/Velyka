@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторна робота 6</title>
+        <link rel="stylesheet" href="./assets/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    </head>
+    <body>
+        <header>
+            <h1>Економіка в енергетиці</h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="./index.html">Головна</a></li>
+                    <li><a href="./group.html">Розробники</a></li>
+                    <li><a href="./competencies.html">Компетенції</a></li>
+                    <li><a href="./components.html">Компоненти</a></li>
+                    <li><a href="./graph.html">Схема</a></li>
+                    <li><a href="./reports.html">Звіти</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <p class="subtitle">Рівень вищої освіти: магістр</p>
+            <p class="subtitle">Галузь знань: C - Соціальні науки, журналістика, інформація та міжнародні відносини</p>
+            <p class="subtitle">Спеціальність: C1 - Економіка та міжнародні відносини</p>
+            
+            <h2 id="goal">Мета освітньо-професійної програми</h2>
+            <p>Підготовка висококваліфікованих професіоналів з економіки в енергетиці, які володіють сучасним економічним мисленням, теоретичними знаннями і прикладними навичками, здатних ефективно вирішувати системні проблеми, створюючи нові механізми для сприяння економічному зростанню та розбудові енергетичної інфраструктури.</p>
+            <h2>Профіль освітньої програми</h2>
+            <div class="frame-container">
+                <iframe class="frame"
+                    src="https://drive.google.com/file/d/1ZXPPaejLWRM1gIW3wX2cbGClber3Ip76/preview" width="640" height="480"> 
+                    description="Профіль освітньої програми">
+                </iframe>
+            </div>
+            <div class="frame-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6FRPTQOC1Ls?si=rrsw0-4xIQvl-UEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h2>Форма для подачі заявки на вступ</h2>
+            <div class="form-container">
+                <form id="feedbackForm" method="POST">
+                    <p><input type="text" name="fullname" required placeholder="П.І.Б"/></p>
+                    <p><input type="date" name="birthdate" required placeholder="Дата народження"/></p>
+                    <p><select name="specialty" required>
+                        <option value="" disabled selected>Спеціальність</option>
+                        <option value="cs">Прикладна економіка (бакалавр)</option>
+                        <option value="it">Економіка інноваційного розвитку (магістр)</option>
+                        <option value="math">Економіка в енергетиці (магістр)</option>
+                    </select>
+                    </p>
+                    <p><input type="file" accept=".png, .jpg" name="file" required placeholder="Файл"/></p>
+                    <p><button type="submit">Надіслати</button></p>
+                </form>
+            </div>
+            
+        </main>
+        <footer>
+            <p>Катерина Велика © ІФНТУНГ, 2026 р.</p>
+        </footer>
+    </body>
+</html>
