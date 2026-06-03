@@ -150,3 +150,24 @@ footer{
         text-align: center;
     }
 }
+
+@media (max-width: 375px) {
+    #FeedbackForm{
+        width:100%;
+    }
+.table-container {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; 
+    }
+    table {
+        width: 100%;
+        min-width: 600px; 
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .navigation li{
+        width:250px;
+        text-align: center;
+    }
