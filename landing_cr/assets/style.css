@@ -1,0 +1,33 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+}
+h1{
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 66px;
+    text-align: left;
+    color: #0F172A;
+    max-width: 584px;
+    margin:0px;
+}
+.image-container1{
+    size: 840px;
+    float: right;
+    margin-left: 20px;
+}
+.cta-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #2B59FF;
+    border-radius: 5px;
+    padding:16px 24px;
+    text-decoration: none;
+    border:0px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
